@@ -1,0 +1,269 @@
+{
+    "element":{
+        "style": {
+            "color": "white"
+        }
+    },
+    "arrayAppObject":[
+        {
+            "type": "ComponentMenuHorizontal",
+            "arrayAppObjectEvent": [
+                {}
+            ],
+            "arrayAppObject":[
+                {
+                    "type": "ComponentLeftHolder",
+                    "element":{
+                        "style":{
+                            "width": "30%"
+                        }
+                    },
+                    "arrayAppObject":[
+                        {
+                            "type": "ComponentFontAwesome",
+                            "arrayAppObjectEvent":[
+                                {
+                                    "name": "router",
+                                    "appObject":{},
+                                    "link":"home"
+                                }
+                            ],
+                            "element": {
+                                "style": {
+                                    "display":"inline-flex",
+                                    "vertical-align":"-webkit-baseline-middle",
+                                    "opacity":"1",
+                                    "padding":"5px",
+                                    "font-size": "25px"
+                                },
+                                "className": "fas fa-industry ClassPulse"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"ComponentCenterHolder",
+                    "element":{
+                        "style":{
+                            "width":"40%"
+                        }
+                    },
+                    "arrayAppObject":[
+                        {
+                            "type":"ComponentInformation",
+                            "information":"title",
+                            "element":{
+                                "className":"ClassFuturisticIAndII",
+                                "style":{
+                                    "display":"block",
+                                    "width":"100%",
+                                    "font-size":"40px"
+                                },
+                                "href": "https://www.google.com/search?q=fabrica+de+software"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"ComponentRightHolder",
+                    "element":{
+                        "style":{
+                            "width":"30%"
+                        }
+                    },
+                    "arrayAppObject":[
+                        {
+                            "type":"ComponentItem",
+                            "element":{
+                                "style":{
+                                    "display":"inline-flex",
+                                    "vertical-align":"-webkit-baseline-middle",
+                                    "opacity":"1",
+                                    "padding":"5px",
+                                    "font-size":"30px"
+                                },
+                                "className":"ClassPulse"
+                            },
+                            "arrayAppObjectEvent":[
+                                {
+                                    "name":"router",
+                                    "appObject":{},
+                                    "link":"languageSettings"
+                                }
+                            ],
+                            "arrayAppObject":[
+                                {
+                                    "type":"ComponentInformation",
+                                    "element":{
+                                        "className":"ClassIcon"
+                                    },
+                                    "information":"µ"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ComponentDivisor",
+                            "element": {
+                                "style": {
+                                    "display":"inline-flex",
+                                    "vertical-align":"-webkit-baseline-middle",
+                                    "padding": "5px",
+                                    "opacity":"1"
+                                },
+                                "className": "ClassMenu"
+                            },
+                            "arrayAppObjectEvent": [
+                                {
+                                    "name": "click",
+                                    "appObject": {},
+                                    "runFunction": "goToSignIn()",
+                                    "code": "Header"
+                                }
+                            ],
+                            "arrayAppObject": [
+                                {
+                                    "type": "ComponentFontAwesome",
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "white",
+                                            "opacity": "1",
+                                            "font-size": "25px"
+                                        },
+                                        "className": "ClassPulse fas fa-user"
+                                    }
+                                },
+                                {
+                                    "type": "ComponentMenuVertical",
+                                    "element": {
+                                        "style": {
+                                            "top": "100%",
+                                            "float": "right",
+                                            "right": "0px",
+                                            "background-color": "rgba(255, 255, 255, 0.1)",
+                                            "width": "max-content",
+                                            "position": "absolute",
+                                            "display": "block"
+                                        }
+                                    },
+                                    "class": "",
+                                    "arrayAppObject": [
+                                        {
+                                            "type": "ComponentDivisor",
+                                            "element": {
+                                                "style": {
+                                                    "height": "fit-content",
+                                                    "width": "max-content"
+                                                }
+                                            },
+                                            "arrayAppObject": [
+                                                {
+                                                    "type": "ComponentInformation",
+                                                    "arrayAppObjectEvent": [
+                                                        {
+                                                            "name": "router",
+                                                            "appObject":{},
+                                                            "link":"signUp"
+                                                        },
+                                                        {
+                                                            "name": "authorization",
+                                                            "appObject": {},
+                                                            "subscribeFunction": "subscribeSignOut",
+                                                            "runFunction": "isSignedOut()",
+                                                            "code": "Header"
+                                                        }
+                                                    ],
+                                                    "element": {
+                                                        "style": {
+                                                            "vertical-align": "-webkit-baseline-middle",
+                                                            "color": "white",
+                                                            "opacity": "1",
+                                                            "padding": "5px",
+                                                            "display": "block",
+                                                            "font-size": "16px",
+                                                            "-webkit-font-smoothing": "antialiased"
+                                                        },
+                                                        "className": "ClassPulse ClassOpenSans"
+                                                    },
+                                                    "information": "signUp"
+                                                },
+                                                {
+                                                    "type": "ComponentInformation",
+                                                    "arrayAppObjectEvent": [
+                                                        {
+                                                            "name": "router",
+                                                            "appObject":{},
+                                                            "link":"signIn"
+                                                        },
+                                                        {
+                                                            "name": "authorization",
+                                                            "appObject": {},
+                                                            "subscribeFunction": "subscribeSignOut",
+                                                            "runFunction": "isSignedOut()",
+                                                            "code": "Header"
+                                                        }
+                                                    ],
+                                                    "element": {
+                                                        "style": {
+                                                            "vertical-align": "-webkit-baseline-middle",
+                                                            "color": "white",
+                                                            "opacity": "1",
+                                                            "padding": "5px",
+                                                            "display": "block",
+                                                            "font-size": "16px",
+                                                            "-webkit-font-smoothing": "antialiased"
+                                                        },
+                                                        "className": "ClassPulse ClassOpenSans"
+                                                    },
+                                                    "information": "signIn"
+                                                },
+                                                {
+                                                    "type": "ComponentInformation",
+                                                    "arrayAppObjectEvent": [
+                                                        {
+                                                            "name": "click",
+                                                            "runFunction": "signOut()",
+                                                            "code": "Header"
+                                                        },
+                                                        {
+                                                            "name": "router",
+                                                            "appObject":{},
+                                                            "link":"signIn"
+                                                        },
+                                                        {
+                                                            "name": "authorization",
+                                                            "appObject": {},
+                                                            "subscribeFunction": "subscribeSign",
+                                                            "runFunction": "isSigned()",
+                                                            "code": "Header"
+                                                        }
+                                                    ],
+                                                    "element": {
+                                                        "style": {
+                                                            "vertical-align": "-webkit-baseline-middle",
+                                                            "color": "white",
+                                                            "opacity": "1",
+                                                            "padding": "5px",
+                                                            "display": "block",
+                                                            "font-size": "16px",
+                                                            "-webkit-font-smoothing": "antialiased"
+                                                        },
+                                                        "className": "ClassPulse ClassOpenSans"
+                                                    },
+                                                    "information": "signOut"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type":"ComponentNotification"
+        }
+    ]
+}

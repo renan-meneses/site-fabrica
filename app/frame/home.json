@@ -1,0 +1,119 @@
+{
+    "background": {
+        "element": {
+            "style": {
+                "background-color": "dodgerblue",
+                "opacity": 1,
+                "visibility": "visible",
+                "position": "fixed",
+                "filter": "brightness(100%) grayscale(0%) blur(0px)",
+                "zIndex": -1000,
+                "max-width": "inherit",
+                "max-height": "inherit",
+                "width": "100%",
+                "height": "100%",
+                "text-align": "center",
+                "justify-content": "center",
+                "display": "flex",
+                "align-items": "center"
+            }
+        },
+        "arrayAppObject": [
+            {
+                "type": "ComponentFontAwesome",
+                "element": {
+                    "style": {
+                        "color": "rgba(255,255,255,0.1)",
+                        "font-size": "70vw"
+                    },
+                    "className": "fas fa-industry"
+                }
+            }
+        ]
+    },
+    "arrayAppObject": [
+        {
+            "type": "ComponentDivisor",
+            "element": {
+                "style": {
+                    "opacity": 1,
+                    "color": "transparent",
+                    "width": "100%",
+                    "height": "100%",
+                    "padding": [
+                        5
+                    ]
+                }
+            },
+            "arrayAppObject": [
+                {
+                    "type": "ComponentItem",
+                    "element": {
+                        "style": {
+                            "padding": "5px",
+                            "textAlign": "center",
+                            "justify-content": "center",
+                            "height": "80%",
+                            "width": "auto",
+                            "display": "flex",
+                            "position": "static",
+                            "align-items": "center"
+                        }
+                    },
+                    "arrayAppObject": [
+                        {
+                            "type": "ComponentColorEffect",
+                            "element": {
+                                "style": {
+                                    "color": "white"
+                                }
+                            },
+                            "arrayAppObject": [
+                                {
+                                    "type": "ComponentFont",
+                                    "element": {
+                                        "className": "ClassFuturisticI",
+                                        "style": {
+                                            "width": "100%",
+                                            "font-size": "70px",
+                                            "padding": [
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "arrayAppObject": [
+                                        {
+                                            "type": "ComponentAnimationEffect",
+                                            "element": {
+                                                "style": {
+                                                    "display": "block"
+                                                }
+                                            },
+                                            "arrayAppObject": [
+                                                {
+                                                    "type": "ComponentAnimationSubEffect",
+                                                    "arrayAppObject": [
+                                                        {
+                                                            "type": "ComponentAnimationSubEffectHolder",
+                                                            "arrayAppObject": [
+                                                                {
+                                                                    "type": "ComponentInformation",
+                                                                    "information": "title",
+                                                                    "element": {}
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

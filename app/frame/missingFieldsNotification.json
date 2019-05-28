@@ -1,0 +1,30 @@
+{
+    "arrayAppObject": [
+        {
+            "type": "ComponentDivisor",
+            "element": {
+                "style":{
+                    "background-color": "rgba(255, 255, 255, 0.1)",
+                    "padding": "5px"
+                }
+            },
+            "arrayAppObject": [
+                {
+                    "type": "ComponentInformation",
+                    "information": "error",
+                    "element": {
+                        "className": "ClassOpenSans",
+                        "style": {
+                            "width": "100%",
+                            "font-size": "16px",
+                            "text-align": "center",
+                            "float": "left",
+                            "color": "white",
+                            "box-sizing": "border-box"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

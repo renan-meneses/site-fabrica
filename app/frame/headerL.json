@@ -1,0 +1,30 @@
+[
+    {
+        "language":"en",
+        "title":"SF",
+        "signIn":"Sign In",
+        "signUp":"Sign Up",
+        "signOut":"Sign Out"
+    },
+    {
+        "language":"en-US",
+        "title":"SF",
+        "signIn":"Sign In",
+        "signUp":"Sign Up",
+        "signOut":"Sign Out"
+    },
+    {
+        "language":"pt",
+        "title":"FS",
+        "signIn":"Login",
+        "signUp":"Registrar",
+        "signOut":"Logoff"
+    },
+    {
+        "language":"pt-BR",
+        "title":"FS",
+        "signIn":"Login",
+        "signUp":"Registrar",
+        "signOut":"Logoff"
+    }
+]

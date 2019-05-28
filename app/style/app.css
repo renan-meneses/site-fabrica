@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "FontIcon";
+    src: url("fonts/BlueLionIcons.otf");
+    src: url("fonts/BlueLionIcons.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontFuturisticI";
+    src: url("fonts/Letters/FuturisticFontI.otf");
+    src: url("fonts/Letters/FuturisticFontI.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontFuturisticII";
+    src: url("fonts/Letters/FuturisticFontII.otf");
+    src: url("fonts/Letters/FuturisticFontII.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
+
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+.ClassIcon{
+    font-family: "FontIcon";
+}
+
+.ClassFuturisticI{
+    font-family: "FontFuturisticI";
+}
+
+.ClassFuturisticII{
+    font-family: "FontFuturisticII";
+}
+
+.ClassFuturisticIAndII{
+    font-family: "FontFuturisticI";
+}
+
+.ClassFuturisticIAndII:hover{
+    font-family: "FontFuturisticII";
+}
+
+.ClassOpenSans{
+    font-family: "Open Sans";
+}
+
+.ClassFacebook{
+    font-family: "Facebook";
+}
+
+.ClassRoboto{
+    font-family: "Roboto";
+}
+
+.ClassFontAwesome{
+    font-family: "FontAwesome";
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  background-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="date"]:before {
+    color: lightgrey;
+    content: attr(placeholder) !important;
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before {
+    content: '' !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,0);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0);
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,1);
+    border-radius:10px;
+}
+
+input.ClassStar[type=checkbox]{
+    font-family: Font Awesome\ 5 Free;
+}
+
+input.ClassStar[type=checkbox] + label:before {
+    font-family: Font Awesome\ 5 Free;
+    content: "\F005"; 
+    opacity: 0.5;
+} /* unchecked icon */
+
+input.ClassStar[type=checkbox] + label:before {
+    letter-spacing: 0px; 
+} /* space between checkbox and label */
+
+input.ClassStar[type=checkbox]:checked + label:before {
+    font-family: Font Awesome\ 5 Free;
+    content: "\F005"; 
+    opacity: 1;
+} /* checked icon */
+
+input.ClassStar[type=checkbox]:checked + label:before {
+    letter-spacing: 0px; 
+} /* allow space for check mark */
+
+label{
+    color: white;
+}
+
+font {
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smooth:always;
+    font-smoothing: antialiased;
+}
+
+.ClassNeon:hover{
+    color: orangered;
+}
+
+/* notification{
+    position: fixed;
+    display: block;
+    top: 35px;
+    width: 100%;
+    height: 25px;
+} */

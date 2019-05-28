@@ -1,0 +1,38 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Configurações",
+        "back":"home",
+        "langTitle":"Idioma",
+        "resolution":"Resolução",
+        "save":"Salvar",
+        "languageName":"Português - Brasil"
+    },
+    {
+        "language":"pt",
+        "title":"Configurações",
+        "back":"home",
+        "langTitle":"Idioma",
+        "resolution":"Resolução",
+        "save":"Salvar",
+        "languageName":"Português"
+    },
+    {
+        "language":"en-US",
+        "title":"Configuration",
+        "back":"home",
+        "langTitle":"Language",
+        "resolution":"Resolution",
+        "save":"Save",
+        "languageName":"English - USA"
+    },
+    {
+        "language":"en",
+        "title":"Configuration",
+        "back":"home",
+        "langTitle":"Language",
+        "resolution":"Resolution",
+        "save":"Save",
+        "languageName":"English"
+    }
+]

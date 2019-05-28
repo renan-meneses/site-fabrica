@@ -1,0 +1,34 @@
+[
+    {
+        "language":"en",
+        "signIn":"Sign In",
+        "signUp":"Sign Up",
+        "user":"User",
+        "email":"Email",
+        "password":"Password"
+    },
+    {
+        "language":"en-US",
+        "signIn":"Sign In",
+        "signUp":"Sign Up",
+        "user":"User",
+        "email":"Email",
+        "password":"Password"
+    },
+    {
+        "language":"pt",
+        "signIn":"Logar",
+        "signUp":"Registrar",
+        "user":"Usuário",
+        "email":"Email",
+        "password":"Senha"
+    },
+    {
+        "language":"pt-BR",
+        "signIn":"Logar",
+        "signUp":"Registrar",
+        "user":"Usuário",
+        "email":"Email",
+        "password":"Senha"
+    }
+]

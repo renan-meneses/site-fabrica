@@ -1,0 +1,22 @@
+[
+    {
+        "language":"en",
+        "title":"FS",
+        "error":"User already exists!"
+    },
+    {
+        "language":"en-US",
+        "title":"FS",
+        "error":"User already exists!"
+    },
+    {
+        "language":"pt-BR",
+        "title":"FS",
+        "error":"Usuário já existente!"
+    },
+    {
+        "language":"pt",
+        "title":"FS",
+        "error":"Usuário já existente!"
+    }
+]
